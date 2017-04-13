@@ -1,0 +1,45 @@
+{
+  "name": "react-es6-skeleton",
+  "version": "1.0.0",
+  "description": "React ES6 skeleton app with Babel",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --config ./config/webpack.config.js --progress --colors",
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack --config ./config/webpack.config.js --progress --colors -p",
+    "clean": "rm -r ./build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knave13/react-es6-skeleton.git"
+  },
+  "keywords": [
+    "react",
+    "babel",
+    "es6",
+    "skeleton"
+  ],
+  "author": "Scott A Gish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knave13/react-es6-skeleton/issues"
+  },
+  "homepage": "https://github.com/Knave13/react-es6-skeleton#readme",
+  "dependencies": {
+    "material-ui": "^0.17.2",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
