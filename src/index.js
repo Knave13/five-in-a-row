@@ -1,5 +1,8 @@
-let message = 'Hello from Entry!!!';
-let otherMessage = "My message!!!";
+import React from 'react'
+import Header from './components/header'
+import { render } from 'react-dom'
 
-console.log(message);
-console.log(otherMessage);
+render(
+    <Header />,
+    document.getElementById('app')
+)

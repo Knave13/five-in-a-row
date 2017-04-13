@@ -32,17 +32,9 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
-                //loader: 'babel-loader',
                 loaders: ['react-hot-loader/webpack', 'babel-loader?presets[]=react,presets[]=es2015'],
                 exclude: /node_modules/
             }
-        // loaders: [
-        //     {
-        //         test: /\.jsx?$/,
-        //         exclude: /node_modules/,
-        //         loaders: ['react-hot-loader', 'babel-loader?presets[]=react,presets[]=es2015'],
-        //         include: path.join(__dirname, 'src')
-        //     }
         ]
     },
     plugins: [
