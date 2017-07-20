@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/Knave13/react-es6-skeleton#readme",
   "dependencies": {
+    "lodash": "^4.17.4",
+    "random-js": "^1.0.8"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
